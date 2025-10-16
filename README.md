@@ -51,9 +51,9 @@ An interactive web application to visualize common algorithms including sorting,
 
 ## Installation
 
-1. **Extract the zip file**
+1. **Clone The Repo**
 ```bash
-unzip algorithm-visualizer.zip
+git clone https://github.com/Avinash-Alapati/AlgoViz.git
 cd frontend
 ```
 
@@ -174,16 +174,6 @@ The app displays real-time metrics:
 - Safari
 - Edge
 
-## Build for Production
-
-```bash
-yarn build
-# or
-npm run build
-```
-
-This creates an optimized production build in the `build/` folder.
-
 ## Algorithm Complexity Reference
 
 | Algorithm | Best Case | Average Case | Worst Case |
@@ -205,15 +195,6 @@ This creates an optimized production build in the `build/` folder.
 - All algorithms run entirely in the browser (no backend required)
 - Animations are CPU-intensive; reduce speed for better performance on slower devices
 - For large arrays (>100 elements), consider using faster algorithms like Quick Sort or Merge Sort
-
-## License
-
-MIT License - Free to use for personal and educational purposes
-
-## Credits
-
-Built with React, Shadcn/ui, and Tailwind CSS
-Icons by Lucide React
 
 ---
 
